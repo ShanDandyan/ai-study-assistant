@@ -7,6 +7,15 @@ An AI-powered web app that helps students prepare for competitive exams like GAT
 - Download the answer as a formatted PDF
 - Clean and simple web interface
 
+- ## screenshot
+
+- <img width="1691" height="737" alt="image" src="https://github.com/user-attachments/assets/26072488-4968-4b0e-8c40-58334be8d9c6" />
+
+<img width="1692" height="891" alt="image" src="https://github.com/user-attachments/assets/9d7cf097-c04a-4f56-a5fe-472a9adf4410" />
+
+<img width="1483" height="912" alt="image" src="https://github.com/user-attachments/assets/9402877e-6b78-42e2-a8ce-5f48973735b5" />
+
+
 ## Tech Stack
 - Python
 - Streamlit
