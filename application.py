@@ -9,6 +9,7 @@ def Generate_pdf(question,answer):
     return bytes(pdf.output())      
 st.title("AI Study Assistant")
 api_key = st.text_input("Enter Groq API key", type="password")
+st.caption("Get your free API key at [console.groq.com](https://console.groq.com)")
 question=st.text_area("Enter your question here")
 clicked=st.button(" Get response")
 if clicked:
