@@ -13,7 +13,8 @@ An AI-powered web app that helps students prepare for competitive exams like GAT
 
 <img width="1692" height="891" alt="image" src="https://github.com/user-attachments/assets/9d7cf097-c04a-4f56-a5fe-472a9adf4410" />
 
-<img width="1483" height="912" alt="image" src="https://github.com/user-attachments/assets/9402877e-6b78-42e2-a8ce-5f48973735b5" />
+<img width="1632" height="851" alt="image" src="https://github.com/user-attachments/assets/d45c23b4-51ca-489d-b9a6-1775942ffc7a" />
+
 
 
 ## Tech Stack
