@@ -1,7 +1,5 @@
 import streamlit as st
 from groq import Groq
-from dotenv import load_dotenv
-import os
 from fpdf import FPDF
 def Generate_pdf(question,answer):
     pdf=FPDF()
@@ -9,13 +7,15 @@ def Generate_pdf(question,answer):
     pdf.set_font("Arial",size=12) 
     pdf.multi_cell(0,10,f" Question : {question} \n\n Answer : {answer}") 
     return bytes(pdf.output())      
-load_dotenv()
-api_key=os.getenv("GROQ_API_KEY")
-client=Groq(api_key=api_key)
 st.title("AI Study Assistant")
+api_key = st.text_input("Enter Groq API key", type="password")
 question=st.text_area("Enter your question here")
 clicked=st.button(" Get response")
 if clicked:
+    if not api_key:
+        st.error("Please enter your Groq API key first")
+    else:
+        client = Groq(api_key=api_key)
     with st.spinner(" Generating response. . ."):
         response=client.chat.completions.create(
             model="llama-3.1-8b-instant",
